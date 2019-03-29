@@ -83,8 +83,9 @@ Curl GET http://localhost:8080/gateway/course/v1/admin/course
 ## Tente acessar sem o /gateway  para ver o erro
 ```
 Curl GET http://localhost:8080/course/v1/admin/course
+```
 
-####```
+####
 ```
 <!doctype html>
 <html lang="en">
