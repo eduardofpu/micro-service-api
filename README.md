@@ -36,8 +36,8 @@ Start => CourseApplication
 http://localhost:8081/
 
 ```
-# Insira pelo menos uma entrada na sua base de dados no caso banco mysql  ex: title = Spring Boot Microservices By DevDojo
-### Acessar a URL pelo postman
+### Insira pelo menos uma entrada na sua base de dados no caso banco mysql  ex: title = Spring Boot Microservices By DevDojo
+#### Acessar a URL pelo postman
 ```
 Curl GET http://localhost:8080/gateway/course/v1/admin/course
 
