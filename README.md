@@ -81,6 +81,7 @@ Curl GET http://localhost:8080/gateway/course/v1/admin/course
     "size": 20,
     "empty": false
 }
+```
 
 ## Tente acessar sem o /gateway  para ver o erro
 ```
