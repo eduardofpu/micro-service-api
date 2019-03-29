@@ -21,7 +21,7 @@ Java 11
 docker-compose -f stack.yml up
 
 ```
-``
+
 ## Para iniciar o projeto siga a sequência
 ```
 Start => DiscoveryApplication
@@ -30,16 +30,13 @@ Start => CourseApplication
 
 ```
 
-``
+
 ## Acesse a porta Eureka e veja a conexão
 ```
 http://localhost:8081/
 
 ```
-## Insira pelo menos uma entrada na sua base de dados no caso banco mysql  ex: title = Spring Boot Microservices By DevDojo
-
-
-```
+# Insira pelo menos uma entrada na sua base de dados no caso banco mysql  ex: title = Spring Boot Microservices By DevDojo
 ### Acessar a URL pelo postman
 ```
 Curl GET http://localhost:8080/gateway/course/v1/admin/course
@@ -81,6 +78,7 @@ Curl GET http://localhost:8080/gateway/course/v1/admin/course
     "size": 20,
     "empty": false
 }
+
 ```
 
 ## Tente acessar sem o /gateway  para ver o erro
