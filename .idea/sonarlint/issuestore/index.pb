@@ -31,3 +31,7 @@ Bcourse/src/main/java/academy/devdojo/course/CourseApplication.java,1/7/1752bee
 Ocourse/src/main/java/academy/devdojo/course/endpoint/service/CourseService.java,f/e/fecfcd70760c2d025ac513434d110214627ee433
 Ö
 Ucourse/src/main/java/academy/devdojo/course/endpoint/controller/CouserController.java,1/a/1ad9e04affd9a52401316de8a3532755ecf7c677
+Å
+Qcore/src/main/java/academy/devdojo/core/repository/ApplicationUserRepository.java,b/9/b924b039e9414a92709805b65730d60e9f5b7f4e
+q
+Aauth/src/test/java/academy/devdojo/auth/AuthApplicationTests.java,2/3/237dbdf28ff6e57e5371310e52f6ef36d451b368

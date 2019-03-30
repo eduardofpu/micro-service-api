@@ -16,10 +16,18 @@
 
     <properties>
         <java.version>11</java.version>
+        <devdojo-token.version>1.0-SNAPSHOT</devdojo-token.version>
         <devdojo-core.version>1.0-SNAPSHOT</devdojo-core.version>
+
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>academy.devdojo</groupId>
+            <artifactId>token</artifactId>
+            <version>${devdojo-token.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>academy.devdojo</groupId>
