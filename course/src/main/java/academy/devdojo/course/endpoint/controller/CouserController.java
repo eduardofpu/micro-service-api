@@ -2,6 +2,7 @@ package academy.devdojo.course.endpoint.controller;
 
 import academy.devdojo.core.model.Course;
 import academy.devdojo.course.endpoint.service.CourseService;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
@@ -15,14 +16,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("v1/admin/course")
 @Slf4j
+@RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class CouserController {
 
     private final CourseService corseService;
-
-    @Autowired
-    public CouserController(CourseService corseService) {
-        this.corseService = corseService;
-    }
 
     @GetMapping(produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public ResponseEntity<Iterable<Course>> list(Pageable pageable){
