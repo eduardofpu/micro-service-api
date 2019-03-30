@@ -20,12 +20,13 @@ public class ApplicationUser implements AbstractEntity {
     @EqualsAndHashCode.Include
     private Long id;
 
-    @NotNull(message = "The field 'userName' is mandatory")
+    @NotNull(message = "The field 'username' is mandatory")
     @Column(nullable = false)
     private String username;
 
     @NotNull(message = "The field 'password' is mandatory")
     @Column(nullable = false)
+    @ToString.Exclude
     private String password;
 
     @NotNull(message = "The field 'role' is mandatory")

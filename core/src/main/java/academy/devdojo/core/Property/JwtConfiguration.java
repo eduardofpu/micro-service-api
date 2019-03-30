@@ -22,6 +22,10 @@ public class JwtConfiguration {
     //http://www.unit-conversion.info/texttools/random-string-generator/
     private String privateKey ="cxEqMVTytKFNJzeGBWYV1jDYQ4st68CS";
     private String type = "encrypted";
+
+    @Getter
+    @Setter
+    @ToString
     public static  class Header{
         private String name = "Authorization";
         private String prefix = "Bearer";

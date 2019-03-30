@@ -1,0 +1,6 @@
+/home/eduardo/Documentos/git/micro-service-api/core/src/main/java/academy/devdojo/core/repository/ApplicationUserRepository.java
+/home/eduardo/Documentos/git/micro-service-api/core/src/main/java/academy/devdojo/core/Property/JwtConfiguration.java
+/home/eduardo/Documentos/git/micro-service-api/core/src/main/java/academy/devdojo/core/model/Course.java
+/home/eduardo/Documentos/git/micro-service-api/core/src/main/java/academy/devdojo/core/repository/CourseRepository.java
+/home/eduardo/Documentos/git/micro-service-api/core/src/main/java/academy/devdojo/core/model/AbstractEntity.java
+/home/eduardo/Documentos/git/micro-service-api/core/src/main/java/academy/devdojo/core/model/ApplicationUser.java

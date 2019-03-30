@@ -14,20 +14,20 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;
-
+@RequiredArgsConstructor(onConstructor = @__(@Autowired))
 @Service
 @Slf4j
-@RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class UserDetailsServiceImpl implements UserDetailsService {
-
     private final ApplicationUserRepository applicationUserRepository;
 
     @Override
     public UserDetails loadUserByUsername(String username){
 
-        log.info("Find by User Name '{}'",username);
-        ApplicationUser applicationUser = applicationUserRepository.findByUserName(username);
-        log.info("Sucesso");
+        log.info("Searching in the DB the user by username '{}'", username);
+
+        ApplicationUser applicationUser = applicationUserRepository.findByUsername(username);
+
+        log.info("ApplicationUser found '{}'",applicationUser);
 
         if(applicationUser == null)
             throw new UsernameNotFoundException(String.format("Application User '%s' not found", username));
