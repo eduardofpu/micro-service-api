@@ -1,6 +1,7 @@
 package academy.devdojo.auth.security.config;
 
 import academy.devdojo.core.Property.JwtConfiguration;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -17,16 +18,11 @@ import javax.servlet.http.HttpServletResponse;
 import static org.springframework.security.config.http.SessionCreationPolicy.STATELESS;
 
 @EnableWebSecurity
+@RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class SecurityCredentialsConfig extends WebSecurityConfigurerAdapter {
 
     private final UserDetailsService userDetailsService;
     private final JwtConfiguration jwtConfiguration;
-
-    @Autowired
-    public SecurityCredentialsConfig(UserDetailsService userDetailsService, JwtConfiguration jwtConfiguration) {
-        this.userDetailsService = userDetailsService;
-        this.jwtConfiguration = jwtConfiguration;
-    }
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
