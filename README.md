@@ -44,6 +44,7 @@ Curl GET http://localhost:8080/gateway/auth/login
 ```
 #####Token
 
+```
 BearereyJjdHkiOiJKV1QiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..m-bEvP5Ft0AGXv7XWzduFQ.S4jvcR1usQ_rDUj-lJ50FcNN1qXkJ-F0xJi4nkUPNEHwXAT73U951PeAhcHhd4xCs1NN1MYHe_Io_ws0culDnT7tX3lH_Nb4_dsJaRm_sHvo7ESCj6Qn57luqz6qhnJIcHNe1WXCNDSgq8hMsxcwyjR2MwqnjaEJWZYFUyxSxGRCc0i68dQFxAfXZsEMM7_Ha42DgOvsKXhet-TR0sQan4IwGKNaO8L30x_KZhk1JghRTdbY0aGsSFdh5IdYNdxFgJbSfW52F9PFUpNd-bcZ--inavbnzjqzNAEndS89iPyn9uBg18cqrb8mWCIn-cuT8T-z22NUSH1SdbE7X9tFfPyZZf725ENPq3Ha5BLbvTwlQ6MqXbE5EaGYEGNraGT7MdvzswQduLAYs0mvWsKcvZU4ztEHjkWCWo1uwexkLOVlsRepltiSySBwMGHUqtoQWRB3tsrkrAPedKXY5hlWt8C3qpeC_F3SP5CNtrs4N__phedWj9SZ-9YrPeih4lO1lYzGHv9ILnrIqB8ZN-moK-N1D03ftyv-hbDCpxwhHO4E6Cd2a1r37bp18DX4JTcIER5O9kssEW56nWl90ekXbjLZuwbWf5j6nSr_6xfwwiSoEBcoxdDRYlLZwqEj_yWB4AIGJhofImOPJLhrONRM2eyuFRIQEAV-0JzkDxGowH5VBJbc6wzaAmXPeUvdgoXDY8JewpFcNuGSFxnvqMQUyUJquWPNLQff7EtPGPDdHs-hUcJB5-Sltx50yCTW-YY58HHzc8bPN0lXCGEuWnAHtW4ep_m-tmWHrZrFc_Rv94U7_roVIXdGGvthPc_f1I2aqee5JyNOMqpyOBauhVmgBaarWJO-L4zQMN8jnOM2USu4zPsnYiVW5gFNACr9k2YyKRn03VMJKDK5yj57WOjLmf6P1uglVA9ammy00fCML9hsAc8l6uNoSucHzvuscVXFEW81JxVLFTnBnaVuu-oWRoCdiccIQ9z9ZNNIwHI7nlpuTi4Ck-Hev-C-8DSwO6zwFszPQ3NlA7axoxb9PzekKIbVPpM2PpMUWWly3GmopOoL07s4qSIbAXhJgjKjbj8MFWoTRA7q8IV-MzZorZQfGXToJSKsK5zB8q5qvpfJ0S1OEZIBCUKSQU7xaWJB81g93J1njnXZ_jqidr8Fk-XtUV75B2T1UyzE5ngeek2q5xygIWGrLIIXLQFzbzwliX6-m4BLjrwxS4dHWNejy4Esrot-BqPCj-Ii-qwW7uKwB-pgRUXn9ZttCMKAKMD1U4UBZwvzAQmwF4waTuN-WAI4IeJckYthRH_QiyZPQaby3D3X12JrmzIdFeGOQ8prLT-Q0Ni902uRIEIKj1DsUEwsWLD_ssKjwKOoBgYr7wRp1kpNEsNXX-7c6clJmza8K4K73crUWhCF7NFjHnpUxqVtMRKonex2E5slEYq-vzUJ-sVfrM274ggh_EAOjj880s4154WUaNro7Zl1gFkOb1U2XQ.HW5PrdIL-O7VolvPFFt_FQ```
 
 ```
@@ -61,7 +62,6 @@ Curl GET http://localhost:8080/gateway/course/v1/admin/course
 
 ```
 
-#####
 ```
 {
     "content": [
@@ -104,7 +104,7 @@ Curl GET http://localhost:8080/gateway/course/v1/admin/course
 Curl GET http://localhost:8080/course/v1/admin/course
 ```
 
-####
+
 ```
 <!doctype html>
 <html lang="en">
@@ -148,9 +148,11 @@ Curl GET http://localhost:8080/gateway/auth/user/info
 ```
 #### Adicione o token gerado no postman na parte do  Headers Authorization
 
-```{
+```
+   {
        "id": 1,
        "username": "william",
        "role": "ROLE_ADMIN"
    }
+
 ```
