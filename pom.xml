@@ -16,8 +16,9 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>course</module>
+        <module>auth</module>
         <module>core</module>
+        <module>course</module>
         <module>discovery</module>
         <module>gateway</module>
         <module>token</module>
@@ -28,16 +29,10 @@
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
         <nimbus-jose.version>7.0</nimbus-jose.version>
         <commons-lang3.version>3.8.1</commons-lang3.version>
+
     </properties>
 
     <dependencies>
-
-
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-            <version>${commons-lang3.version}</version>
-        </dependency>
 
         <dependency>
             <groupId>com.nimbusds</groupId>
@@ -46,8 +41,19 @@
         </dependency>
 
         <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons-lang3.version}</version>
+        </dependency>
+
+        <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
 
         <dependency>
@@ -99,11 +105,13 @@
             <scope>test</scope>
         </dependency>
 
-    </dependencies>
 
+
+    </dependencies>
 
     <dependencyManagement>
         <dependencies>
+
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>

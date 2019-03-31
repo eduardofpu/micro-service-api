@@ -18,7 +18,6 @@
         <java.version>11</java.version>
         <devdojo-token.version>1.0-SNAPSHOT</devdojo-token.version>
         <devdojo-core.version>1.0-SNAPSHOT</devdojo-core.version>
-
     </properties>
 
     <dependencies>
