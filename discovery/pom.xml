@@ -17,8 +17,8 @@
 	<properties>
 		<java.version>11</java.version>
 		<jaxb-api.version>2.3.0</jaxb-api.version>
-<!--		<jaxb-core.version>2.3.0</jaxb-core.version>-->
-<!--		<jaxb-impl.version>2.3.0</jaxb-impl.version>-->
+		<jaxb-core.version>2.3.0</jaxb-core.version>
+		<jaxb-impl.version>2.3.0</jaxb-impl.version>
 		<jaxb-runtime.version>2.3.2</jaxb-runtime.version>
 		<javax-activation.version>1.1.1</javax-activation.version>
 	</properties>
@@ -36,16 +36,16 @@
 			<version>${jaxb-api.version}</version>
 		</dependency>
 
-<!--		<dependency>-->
-<!--			<groupId>com.sun.xml.bind</groupId>-->
-<!--			<artifactId>jaxb-core</artifactId>-->
-<!--			<version>${jaxb-core.version}</version>-->
-<!--		</dependency>-->
-<!--		<dependency>-->
-<!--			<groupId>com.sun.xml.bind</groupId>-->
-<!--			<artifactId>jaxb-impl</artifactId>-->
-<!--			<version>${jaxb-impl.version}</version>-->
-<!--		</dependency>-->
+		<dependency>
+			<groupId>com.sun.xml.bind</groupId>
+			<artifactId>jaxb-core</artifactId>
+			<version>${jaxb-core.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.xml.bind</groupId>
+			<artifactId>jaxb-impl</artifactId>
+			<version>${jaxb-impl.version}</version>
+		</dependency>
 
 		<dependency>
 		<groupId>org.glassfish.jaxb</groupId>

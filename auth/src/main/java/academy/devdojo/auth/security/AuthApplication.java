@@ -1,26 +1,24 @@
-package academy.devdojo.gateway;
+package academy.devdojo.auth.security;
 
 import academy.devdojo.core.Property.JwtConfiguration;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
-@EnableZuulProxy
-@EnableEurekaClient
+@SpringBootApplication
 @EnableConfigurationProperties(value = JwtConfiguration.class)
+@EntityScan({"academy.devdojo.core.model"})
+@EnableJpaRepositories({"academy.devdojo.core.repository"})
+@EnableEurekaClient
 @ComponentScan("academy.devdojo")
-public class GatewayApplication {
+public class AuthApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(GatewayApplication.class, args);
+        SpringApplication.run(AuthApplication.class, args);
     }
 
 }

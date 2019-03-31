@@ -2,7 +2,7 @@ package academy.devdojo.auth.security.Filter;
 
 import academy.devdojo.core.Property.JwtConfiguration;
 import academy.devdojo.core.model.ApplicationUser;
-import academy.devdojo.security.token.creator.TokenCreator;
+import academy.devdojo.token.creator.TokenCreator;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.nimbusds.jwt.SignedJWT;
 import lombok.RequiredArgsConstructor;
