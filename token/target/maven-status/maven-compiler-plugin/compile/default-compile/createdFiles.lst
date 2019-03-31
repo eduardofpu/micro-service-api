@@ -1,0 +1,5 @@
+academy/devdojo/token/converter/TokenConverter.class
+academy/devdojo/token/util/SecurityContextUtil.class
+academy/devdojo/token/creator/TokenCreator.class
+academy/devdojo/token/filter/JwtTokenAuthorizationFilter.class
+academy/devdojo/token/config/SecurityTokenConfig.class

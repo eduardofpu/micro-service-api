@@ -45,3 +45,15 @@ Gtoken/src/main/java/academy/devdojo/token/converter/TokenConverter.java,2/6/26
 Qauth/src/main/java/academy/devdojo/auth/security/user/UserDetailsServiceImpl.java,2/3/233ff794376f92e0f84b6c351dddd8520b015639
 v
 Fcore/src/main/java/academy/devdojo/core/Property/JwtConfiguration.java,1/b/1b4cd11bcd641da7a6447e11a4ee9e79ae84172f
+q
+Acore/src/main/java/academy/devdojo/core/model/AbstractEntity.java,1/3/13e633a0e5d07b284fdb703eab8e6079eecb49a2
+i
+9core/src/main/java/academy/devdojo/core/model/Course.java,f/6/f6efee413f9a9dd934a636145e797af3de32a6bf
+
+Qcore/src/main/java/academy/devdojo/core/repository/ApplicationUserRepository.java,b/9/b924b039e9414a92709805b65730d60e9f5b7f4e
+…
+Ucourse/src/main/java/academy/devdojo/course/endpoint/controller/CouserController.java,1/a/1ad9e04affd9a52401316de8a3532755ecf7c677
+>
+course/pom.xml,f/3/f304e1be980d2d181f25492966731f93804adf3c
+
+Ocourse/src/main/java/academy/devdojo/course/endpoint/service/CourseService.java,f/e/fecfcd70760c2d025ac513434d110214627ee433
