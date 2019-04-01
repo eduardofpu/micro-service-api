@@ -1,5 +1,0 @@
-/home/eduardo/Documentos/git/micro-service-api/token/src/main/java/academy/devdojo/token/util/SecurityContextUtil.java
-/home/eduardo/Documentos/git/micro-service-api/token/src/main/java/academy/devdojo/token/converter/TokenConverter.java
-/home/eduardo/Documentos/git/micro-service-api/token/src/main/java/academy/devdojo/token/config/SecurityTokenConfig.java
-/home/eduardo/Documentos/git/micro-service-api/token/src/main/java/academy/devdojo/token/creator/TokenCreator.java
-/home/eduardo/Documentos/git/micro-service-api/token/src/main/java/academy/devdojo/token/filter/JwtTokenAuthorizationFilter.java
