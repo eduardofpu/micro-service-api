@@ -156,3 +156,11 @@ Curl GET http://localhost:8080/gateway/auth/user/info
    }
 
 ```
+
+#### Docs Swagger2
+
+```
+   http://localhost:8080/gateway/auth/swagger-ui.html#/user-info-controller
+   http://localhost:8080/gateway/course/swagger-ui.html#/course-controller
+
+```
