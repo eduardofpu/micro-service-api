@@ -57,9 +57,15 @@ Ucourse/src/main/java/academy/devdojo/course/endpoint/controller/CouserControlle
 course/pom.xml,f/3/f304e1be980d2d181f25492966731f93804adf3c
 
 Ocourse/src/main/java/academy/devdojo/course/endpoint/service/CourseService.java,f/e/fecfcd70760c2d025ac513434d110214627ee433
-à
-Xauth/src/main/java/academy/devdojo/auth/security/endpoint/controller/UserController.java,7/2/7237984a335cf014b179972bf35d6ee460b0953d
 Å
 Qcourse/src/main/java/academy/devdojo/course/config/SecurityCredentialsConfig.java,0/e/0e79bd0f6e5693ee8add0a37fcc17469cc2ed3b6
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+s
+Ccourse/src/main/java/academy/devdojo/course/docs/SwaggerConfig.java,a/9/a9159c079c79ad679485a1be249cc4c259a03774
+å
+\auth/src/main/java/academy/devdojo/auth/security/endpoint/controller/UserinfoController.java,7/e/7eac42be83319c9185612082cd5a2586da0109fe
+x
+Hauth/src/main/java/academy/devdojo/auth/security/docs/SwaggerConfig.java,e/8/e84e1e6eb4bf6679eb20a1e9f443cd63b895f42b
+s
+Ccore/src/main/java/academy/devdojo/core/docs/BaseSwaggerConfig.java,1/9/1930d8b3cc093bde6e4bac017b629d470767bfa5

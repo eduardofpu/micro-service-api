@@ -38,9 +38,21 @@ http://localhost:8081/
 
 ```
 
+#### Na tabela application_user insira um username ex:
+```
+INSERT INTO devdojo.application_user
+(password, `role`, username)
+VALUES('$2a$10$FWK.d5nBQ.XvaNvrnBJoNegRhqoNSRPCiHIAasC7QkNsuDMnlzmye','ADMIN','william');
+```
+
 #### Crie um token no recurso abaixo, veja o token criado no Headers
 ```
-Curl GET http://localhost:8080/gateway/auth/login
+Curl POST http://localhost:8080/gateway/auth/login
+
+{
+  "username":"william",
+  "password":"devdojo"
+}
 
 ```
 ##### Token
@@ -136,12 +148,6 @@ The origin server did not find a current representation for the target resource 
 
 ```
 
-#### Na tabela application_user insira um username ex:
-```
-INSERT INTO devdojo.application_user
-(password, `role`, username)
-VALUES('$2a$10$FWK.d5nBQ.XvaNvrnBJoNegRhqoNSRPCiHIAasC7QkNsuDMnlzmye','ADMIN','william');
-```
 
 #### Chame o gateway/auth/user/info
 ```
