@@ -26,6 +26,7 @@ docker-compose -f stack.yml up
 ```
 Start => DiscoveryApplication
 Start => GatewayApplication
+Start => AuthApplication
 Start => CourseApplication
 
 ```
